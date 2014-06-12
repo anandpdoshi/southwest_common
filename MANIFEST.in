@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include southwest_common *.css
+recursive-include southwest_common *.csv
+recursive-include southwest_common *.html
+recursive-include southwest_common *.ico
+recursive-include southwest_common *.js
+recursive-include southwest_common *.json
+recursive-include southwest_common *.md
+recursive-include southwest_common *.png
+recursive-include southwest_common *.py
+recursive-include southwest_common *.svg
+recursive-include southwest_common *.txt
+recursive-exclude southwest_common *.pyc
