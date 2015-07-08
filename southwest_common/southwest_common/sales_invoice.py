@@ -8,7 +8,7 @@ from frappe.utils import cstr
 from frappe.model.naming import make_autoname
 
 def autoname(doc, method):
-	sales_order = cstr(doc.get("entries")[0].sales_order)
+	sales_order = cstr(doc.get("items")[0].sales_order)
 	if not sales_order:
 		frappe.throw(_("Sales Invoice must be made against a valid Sales Order"))
 
